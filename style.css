@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  height: 567px;
+  width: 327px;
+  margin: 71px 0 0 24px;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+body {
+  max-width: 375px;
+  max-height: 709px;
+  background-color: #d6e1ff;
+  font-family: "Red Hot Displays", sans-serif;
+}
+
+#logo {
+  width: 327px;
+  height: 160px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.intro {
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 263px;
+}
+
+.heading1 {
+  font-family: "Red Hot Displays", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  color: #1f2e55;
+  text-align: center;
+}
+
+.cont-p {
+  width: 263px;
+  height: 75px;
+  margin-top: 16px;
+  margin-left: 32px;
+  text-align: center;
+}
+
+.cont-p > p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #717fa6;
+}
+
+.pay-plan {
+  width: 279px;
+  height: 81px;
+  border-radius: 11px;
+  margin: 24px 0 0 24px;
+  background-color: #f7f9ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ann-plan {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1f2e55;
+}
+
+.price {
+  margin-top: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #717fa6;
+}
+
+a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #382ae1;
+}
+
+button {
+  width: 279px;
+  height: 50px;
+  border-radius: 11px;
+  background-color: #382ae1;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 24px;
+}
+
+.cancel {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  /* margin-top: 24px; */
+  margin-left: 115px;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    height: 900px;
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+  .card {
+    height: 697px;
+    width: 450px;
+    margin: 102px 0 101px 495px;
+    border-radius: 20px;
+  }
+  #logo {
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .intro {
+    margin-top: 45px;
+    margin-left: 48px;
+    width: 354px;
+  }
+
+  .heading1 {
+    font-size: 28px;
+    line-height: 37px;
+    color: #1f2e55;
+  }
+  .cont-p {
+    width: 354px;
+    height: 78px;
+    margin-top: 17px;
+    margin-left: 48px;
+  }
+
+  .cont-p > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717fa6;
+  }
+  .pay-plan {
+    width: 354px;
+    height: 98px;
+    margin: 20px 0 0 48px;
+  }
+
+  .ann-plan {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .price {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #766cf1;
+    text-decoration: none;
+  }
+
+  button {
+    width: 354px;
+    margin: 32px 0 0 48px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: #766cf1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  }
+
+  .cancel {
+    margin-left: 176px;
+    margin-top: 32px;
+  }
+
+  .cancel:hover {
+    cursor: pointer;
+    color: #1f2e55;
+  }
+}
